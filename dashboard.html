@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/bootstrap.css" />
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <title>dashboadrd</title>
+  </head>
+
+  <body>
+    <section class="wrapper d-flex">
+      <div class="side-bar">
+        <nav class="theme-text-blue-grey theme-paragraph">
+          <ul>
+            <!-- Dashboard -->
+            <li class="active theme-text">
+              <a href="#"
+                ><img src="../../../public/images/icons/dashboard_active.svg"
+              /></a>
+              <a href="/src/pages/dashboard/dashboard.html">Dashboard</a>
+            </li>
+            <!-- Employees -->
+            <li>
+              <a href="#"
+                ><img
+                  src="../../../public/images/icons/customer_inactive_icon.svg"
+                  class="img-hov"
+              /></a>
+              <a href="/src/pages/employee-management/employee.html"
+                >Employees</a
+              >
+            </li>
+            <!-- Training -->
+            <li>
+              <a href="#"
+                ><img
+                  src="../../../public/images/icons/customer_inactive_icon.svg"
+                  class="img-hov"
+              /></a>
+              <a href="/src/pages/training-management/courses.html#"
+                >Training</a
+              >
+            </li>
+            <!-- Products -->
+            <li>
+              <a href="#"
+                ><img
+                  src="../../../public/images/icons/products_inactive_icon.svg"
+              /></a>
+              <a href="/src/pages/product-management/category.html">Products</a>
+            </li>
+            <!-- Ranges -->
+            <li>
+              <a href="#"
+                ><img
+                  src="../../../public/images/icons/order_inactive_icon.svg"
+                  class="img-hov"
+              /></a>
+              <a href="/src/pages/range-management/index.html">Ranges</a>
+            </li>
+            <!-- Firearms -->
+            <li>
+              <a href="#"
+                ><img
+                  src="../../../public/images/icons/order_inactive_icon.svg"
+              /></a>
+              <a href="/src/pages/firearms-management/index.html">Firearms</a>
+            </li>
+            <!-- Membership -->
+            <li>
+              <a href="#"
+                ><img
+                  src="../../../public/images/icons/wallet_inactive_icon.svg"
+              /></a>
+              <a href="/src/pages/membership-management/index.html"
+                >Membership</a
+              >
+            </li>
+            <!-- Discounts -->
+            <li>
+              <a href="#"
+                ><img
+                  src="../../../public/images/icons/subscription_inactive_icon.svg"
+              /></a>
+              <a href="/src/pages/discounts/index.html">Discounts</a>
+            </li>
+            <!-- Notifications -->
+            <li>
+              <a href="#"
+                ><img src="../../../public/images/icons/setting_inactive.svg"
+              /></a>
+              <a href="/src/pages/notifications-management/index.html"
+                >Notifications</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="wrapper-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="top-header">
+              <img
+                src="../../../public/images/icons/sidebar_icon11.svg"
+                alt=""
+                class="open-icon"
+                onclick="sideBarFunction()"
+              />
+            </div>
+          </div>
+          <div class="px-4 pt-4">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="box-sale">
+                  <h3 class="theme-paragraph theme-text-white">Today's Sale</h3>
+                  <div class="rating-sale">
+                    <p class="theme-heading theme-text-blue-grey">Total</p>
+                    <p class="theme-text main-tab-heading">$2552.58</p>
+                  </div>
+                  <div class="online-rating">
+                    <p class="theme-sub-paragraph theme-text-blue-grey">
+                      Online - $1950.50
+                    </p>
+                    <p
+                      class="theme-sub-paragraph theme-text-blue-grey light-grey-online"
+                    >
+                      Cash - $602.08
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8"></div>
+              <div class="col-lg-3 col-6">
+                <div class="card">
+                  <p>Total Orders</p>
+                  <h3>15,453</h3>
+                </div>
+              </div>
+              <div class="col-lg-3 col-6">
+                <div class="card">
+                  <p>Ready To Pick</p>
+                  <h3>204</h3>
+                </div>
+              </div>
+              <div class="col-lg-3 col-6">
+                <div class="card">
+                  <p>Delivered Orders</p>
+                  <h3>10,489</h3>
+                </div>
+              </div>
+              <div class="col-lg-3 col-6">
+                <div class="card">
+                  <p>Cacelled Orders</p>
+                  <h3>4,920</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="../../js/themejava.js"></script>
+  </body>
+</html>
